@@ -64,7 +64,7 @@ class GrayscaleBlock(SampleBase):
         
         offscreen_canvas = self.matrix.CreateFrameCanvas()
         font = graphics.Font()
-        font.LoadFont("../../../../fonts/5x8.bdf")
+        font.LoadFont("5x8.bdf")
         textColor = graphics.Color(0, 0, 255)
         pos = 32
         my_text = "test: " + str(7)
