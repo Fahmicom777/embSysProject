@@ -3,12 +3,12 @@
 We use rust bindings for bluez, a bluethooth library for linux.
 - Fedora(-based)
 ```
-  sudo dnf in bluez-libs-devel
+  sudo dnf in bluez-libs-devel dbus-devel pkgconf-pkg-config
 ```
 
 - Debian(-based)
 ```
-  sudo apt install libbluethooth-dev
+  sudo apt install libbluethooth-dev libdbus-1-dev pkg-config
 ```
 
 ### Building
@@ -26,6 +26,4 @@ you can also just run it with
 
 For development omit the `-r` or `--release` flag for fast builds
 
-enter the following line into the terminal within the path of this README.md to run the project
-
-sudo python grayscale-block.py --led-cols=64 --led-chain=3 --led-slowdown-gpio=5
+sudo python three-panel-golf.py --led-cols=64 --led-chain=3 --led-slowdown-gpio=5
